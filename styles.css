@@ -1,0 +1,115 @@
+body {
+  background-color: #ffffff;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+
+.circle {
+    width: 300px;      
+    height: 300px;     
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit:cover; 
+}
+
+h1 {
+  color: #242424;
+  font-size: 3.5rem;
+}
+em{
+  color: #3a3a3a;
+    font-style: italic;
+    font-size: 2rem;
+}
+.style {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.hr{
+  /* background-color: white; */
+  border-style: dotted none none;
+  /*height: 2px; */
+  width: 10%;
+  border-color: #747474;
+  border-width: 5px;
+  margin: auto;
+}
+
+h2{
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  /* border: solid; */
+}
+
+.pa2{
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  margin-left: 7%;
+  margin-right: 7%;
+
+  /* border: solid; */
+}
+.pa3{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  text-align: left;
+  margin: 15% 15% 20% 20%;
+  margin-bottom:30px;
+  line-height: 30px;
+  margin-top: 2%;
+  border:#000000 solid 2px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ff007785;
+ 
+}
+
+.table1 {
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0);
+  font-style: normal;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin: auto;
+}
+
+caption {
+  
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(255, 255, 255);
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+  
+
+tbody>tr:nth-of-type(even) {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
